@@ -1,3 +1,72 @@
 body {
   background: peachpuff;
 }
+
+@media (max-width:1400px){
+  .container{
+display: flex;
+flex-direction: column;
+  }
+div{
+  border: 5px solid white;
+  color:white;
+  margin: 1em;
+  text-align: center;
+}
+div > .c{
+  position: relative;
+  bottom: 60px;
+  left:0px;
+}
+div > .b{
+  position: relative;
+  right:60px
+}
+div > .d{
+  position: relative;
+  bottom: 120px;
+  left: 60px;
+}
+div > .e{
+  position: relative;
+  bottom: 100px;
+  right: 60px;
+
+}
+div > .f{
+  position: relative;
+  bottom: 160px;
+}
+div > .g{
+  position: relative;
+  bottom: 225px;
+  left: 70px;
+}
+div > .h{
+  position: relative;
+  bottom: 200px;
+  
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:600px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    background: grey;
+  }
+  div{
+    border: 5px solid white;
+    color:white;
+    margin: 1em;
+    text-align: center;
+    
+ 
+  }
